@@ -1,0 +1,26 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.Top_div{
+  display: flex;
+  flex-flow: column;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: rgba(199, 9, 232, 0.75);
+}
+/* for list div */
+
+.List{
+  background-color: green;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:2px solid black;
+}
